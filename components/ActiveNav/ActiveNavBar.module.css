@@ -1,0 +1,9 @@
+
+
+.link{
+    @apply hover:underline mr-2 hover:bg-blue-700 
+}
+
+.active-link{
+    @apply bg-slate-600
+}
