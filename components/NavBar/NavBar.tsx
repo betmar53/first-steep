@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import React from 'react'
 import { ActiveNavBar } from '../ActiveNav/ActiveNavBar'
-import { HomeIcon } from '@primer/octicons-react'
 
 const NavList=[
     {path:"/about", text:"Acerca"},
@@ -16,7 +15,6 @@ export const NavBar = () => {
     <>
     <nav className='flex bg-blue-500 bg-opacity-30 items-center p-2'>
         <Link className='flex mr-2 items-center' href='/'>
-        <HomeIcon className='flex  m-2' size={16} /> 
         <span className='items-center'>Home</span>
         </Link>
         
